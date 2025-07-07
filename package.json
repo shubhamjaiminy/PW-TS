@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "playwright with type script",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "install:deps": "npx playwright install --with-deps"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
