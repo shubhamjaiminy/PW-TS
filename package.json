@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
+      "playcraft": "playcraft",
     "install:deps": "npx playwright install --with-deps"
   },
   "author": "",
